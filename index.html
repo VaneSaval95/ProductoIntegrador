@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Producto Integrador - Proyecto II</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">Producto Integrador</div>
+    <nav>
+      <ul class="menu">
+        <li><button class="menu-btn active" data-target="actividades">Actividades realizadas</button></li>
+        <li><button class="menu-btn" data-target="sistema">Sistema implementado</button></li>
+        <li><button class="menu-btn" data-target="codigo">Código fuente (ZIP)</button></li>
+        <li><button class="menu-btn" data-target="reporte">Reporte de modificaciones</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="contenedor">
+    <!-- Sección 1: Actividades realizadas -->
+    <section id="actividades" class="seccion activa">
+      <h1>Actividades realizadas en el curso</h1>
+      <p>Recopilación de las fases desarrolladas bajo la metodología ágil SCRUM:</p>
+      <ul class="lista-actividades">
+        <li><strong>Unidad 1:</strong> Metodología SCRUM, definición del Product Backlog y primer Sprint.</li>
+        <li><strong>Unidad 2:</strong> Sprint Schedule y planificación iterativa del proyecto.</li>
+        <li><strong>Unidad 3:</strong> Fases 1, 2 y 3 de desarrollo, revisión y ajuste de Sprints.</li>
+        <li><strong>Unidad 4:</strong> Reuniones de revisión inicial y ajustes de modificaciones.</li>
+      </ul>
+    </section>
+
+    <!-- Sección 2: Sistema implementado -->
+    <section id="sistema" class="seccion">
+      <h1>Sistema implementado</h1>
+      <p>Accede al sistema funcional desarrollado durante el curso o explora su demostración:</p>
+      <div class="tarjeta">
+        <h3>Aplicación Web Terminada</h3>
+        <p>Breve descripción de las funcionalidades principales de tu sistema.</p>
+        <!-- Reemplaza el href con la URL donde esté alojado tu sistema o la vista principal -->
+        <a href="https://tu-usuario.github.io/tu-sistema/" target="_blank" class="btn-accion">Abrir Sistema Implementado</a>
+      </div>
+    </section>
+
+    <!-- Sección 3: Código fuente comprimido -->
+    <section id="codigo" class="seccion">
+      <h1>Código fuente (comprimido)</h1>
+      <p>Descarga el paquete completo con los archivos fuente del proyecto en formato ZIP:</p>
+      <div class="tarjeta">
+        <h3>Repositorio y Descarga Directa</h3>
+        <p>Incluye estructura HTML, hojas de estilo, scripts y recursos.</p>
+        <a href="archivos/DigiExp-master.zip" download class="btn-accion">Descargar Código Fuente (.ZIP)</a>
+      </div>
+    </section>
+
+    <!-- Sección 4: Reporte de modificaciones -->
+    <section id="reporte" class="seccion">
+      <h1>Reporte de las modificaciones realizadas</h1>
+      <p>Documento detallado con los cambios aplicados tras las reuniones de revisión en la Unidad 4:</p>
+      <div class="tarjeta">
+        <h3>Bitácora de Ajustes y Mejoras</h3>
+        <ul>
+          <li><strong>Ajuste 1:</strong> Mejora en la interfaz y navegación del usuario.</li>
+          <li><strong>Ajuste 2:</strong> Optimización de validaciones y estructura de datos.</li>
+        </ul>
+        <a href="archivos/reporte-modificaciones.pdf" target="_blank" class="btn-accion">Ver / Descargar Reporte (PDF)</a>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
